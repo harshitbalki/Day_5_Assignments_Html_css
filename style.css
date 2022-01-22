@@ -1,0 +1,75 @@
+form{
+    display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background-color: rgb(180, 176, 171);
+}
+
+body{
+    margin: 0%;
+}
+
+.navbar{
+    background-color: #c1d19d;
+    display: flex;
+    justify-content: space-around;
+}
+.navblog{
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+}
+.pro{
+    background-color: #c06029;
+    display: flex;
+    justify-content:safe;
+}
+.navbar #navlogo{
+    width:50px;
+    padding:5px;
+}
+.navblog #blog{
+    width:100px;
+    padding:10px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar li{
+    display: inline-block
+}
+.navbar ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(241, 80, 31);
+}
+.navbar ul li a:hover{
+    color:cornflowerblue
+}
+.navbar h1{
+    color:rgb(49, 129, 2)
+}
+h1{
+    color:rgb(77, 150, 35)
+}
+a:hover{
+    color:rgb(255, 0, 0);
+    
+}
+.pro h3 a:hover{
+    
+    color:rgb(197, 157, 27);
+}
+.pro h3 a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(199, 178, 172);
+}
+.pro #blog{
+    width:100px;
+    padding:10px;
+}
+.pro h2{
+    color: rgb(90, 52, 52);
+}
